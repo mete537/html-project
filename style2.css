@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /* Yazı tipi ailesi */
+    font-size: 11px; /* <p></p> etiketindeki ana yazının boyutu */
+    background-color: #0d69cb; /* Web sayfasının arka plan rengi */
+    color: #00e2cb; /* Metin rengi */
+}
+h1 {
+  animation: color-change 3s infinite;
+}
+h1 {
+    color: #06d8d1; /* Başlık rengi */
+    font-size: 24px; /* Başlık yazı tipi boyutu */
+    font-family: Georgia, serif,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /* Başlıkta kullanılan yazı tipi ailesi */
+}
+@keyframes size-change {
+  0%   { font-size: 14px; }
+  50%  { font-size: 30px; }
+  100% { font-size: 14px; }
+}
